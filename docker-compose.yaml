@@ -1,0 +1,6 @@
+version: '3'
+services:
+  docker-collector-metrics:
+    build:
+      context: .
+    image: damiansilbergleithcunniff/docker-collector-metrics:0.0.2
